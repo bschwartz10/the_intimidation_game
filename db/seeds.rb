@@ -39,7 +39,7 @@ CSV.foreach "db/csv/stats.csv", headers: true, header_converters: :symbol do |ro
     receptions: row[:receptions],
     rec_yards: row[:recyds],
     rec_tds: row[:rectd],
-    fantasy_points: row[:fantpt] || 0,
+    fantasy_points: row[:fantpt] || "N/A",
     position_rank: row[:posrank]
   )
   puts "#{player.first_name} #{player.last_name} was created with his stats."
@@ -47,6 +47,12 @@ end
 
 teams = Team.all
 
-Player.where(position: "qb").take(12).order(:random).each do |player|
-  team << player
-end
+  teams.each do |team|
+    Player.where(position: "QB").where(team_id: nil).take(1)[0].update(team_id: team.id)
+    Player.where(position: "RB").where(team_id: nil).take(1)[0].update(team_id: team.id)
+    Player.where(position: "RB").where(team_id: nil).take(1)[0].update(team_id: team.id)
+    Player.where(position: "WR").where(team_id: nil).take(1)[0].update(team_id: team.id)
+    Player.where(position: "WR").where(team_id: nil).take(1)[0].update(team_id: team.id)
+    Player.where(position: "WR").where(team_id: nil).take(1)[0].update(team_id: team.id)
+    Player.where(position: "TE").where(team_id: nil).take(1)[0].update(team_id: team.id)
+  end
