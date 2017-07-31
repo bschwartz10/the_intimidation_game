@@ -1,7 +1,7 @@
 require 'csv'
-require 'database_cleaner'
-
-DatabaseCleaner.clean_with(:truncation)
+# require 'database_cleaner'
+#
+# DatabaseCleaner.clean_with(:truncation)
 
 team_names = ['Golden Tate Warriors',
               'Little Red Fournette',
