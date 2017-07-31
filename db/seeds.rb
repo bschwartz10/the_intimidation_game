@@ -23,8 +23,9 @@ CSV.foreach "db/csv/stats_sample.csv", headers: true, header_converters: :symbol
   player = Player.new(
     first_name: row[:name].split(' ')[0],
     last_name: row[:name].split('\\')[0].split(' ')[1],
-    nfl_team: row[:tm],
+    nfl_team: row[:logo],
     position: row[:fantpos],
+    img_src: row[:img] || "N/A"
   )
   player.save(validate: false)
 
@@ -38,7 +39,7 @@ CSV.foreach "db/csv/stats_sample.csv", headers: true, header_converters: :symbol
     rec_yards: row[:recyds],
     rec_tds: row[:rectd],
     fantasy_points: row[:fantpt] || "N/A",
-    position_rank: row[:posrank]
+    position_rank: row[:posrank],
   )
   puts "#{player.first_name} #{player.last_name} was created with his stats."
 end
@@ -46,7 +47,6 @@ end
 teams = Team.all
 
   teams.each do |team|
-    require "pry"; binding.pry
     Player.where(position: "QB").where(team_id: nil).take(1)[0].update(team_id: team.id)
     Player.where(position: "RB").where(team_id: nil).take(1)[0].update(team_id: team.id)
     Player.where(position: "RB").where(team_id: nil).take(1)[0].update(team_id: team.id)

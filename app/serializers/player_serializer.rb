@@ -5,6 +5,7 @@ class PlayerSerializer < ActiveModel::Serializer
              :position,
              :nfl_team,
              :team_id,
+             :img_src,
              :stats
 
 end

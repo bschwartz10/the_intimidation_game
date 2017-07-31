@@ -1,15 +1,15 @@
-Rk,Name,Tm,FantPos,Age,G,GS,PassCmp,PassAtt,PassYds,PassTD,Int,RushAtt,RushYds,RushY/A,RushTD,RecTgt,Receptions,RecYds,RecY/R,RecTD,FantPt,DKPt,FDPt,VBD,PosRank,OvRank
-6,Aaron Rodgers\RodgAa00,GNB,QB,33,16,16,401,610,4428,40,7,67,369,5.51,4,0,0,0,,0,382,397.0,387.0,114,1,6
-1,David Johnson\JohnDa08,ARI,RB,25,16,16,0,0,0,0,0,293,1239,4.23,16,120,80,879,10.99,4,328,416.8,367.8,207,1,1
-2,Ezekiel Elliott\ElliEz00,DAL,RB,21,15,15,0,0,0,0,0,322,1631,5.07,15,39,32,363,11.34,1,293,332.4,309.4,173,2,2
-11,Mike Evans\EvanMi00,TAM,WR,23,16,16,0,0,0,0,0,0,0,,0,173,96,1321,13.76,12,208,307.1,256.1,82,1,11
-12,Jordy Nelson\NelsJo00,GNB,WR,31,16,16,0,0,0,0,0,0,0,,0,152,97,1257,12.96,14,208,308.7,256.2,81,2,12
-13,Antonio Brown\BrowAn04,PIT,WR,28,15,15,0,0,0,0,0,3,9,3.00,0,154,106,1284,12.11,12,207,310.3,254.3,81,3,13
-23,Travis Kelce\KelcTr00,KAN,TE,27,16,15,0,0,0,0,0,1,-5,-5.00,0,117,85,1125,13.24,4,138,226.0,180.5,49,1,23
-10,Matt Ryan\RyanMa00,ATL,QB,31,16,16,373,534,4944,38,7,35,117,3.34,0,0,0,0,,0,355,362.5,354.5,88,2,10
-3,LeSean McCoy\McCoLe01,BUF,RB,28,15,15,0,0,0,0,0,234,1267,5.41,13,57,50,356,7.12,1,248,304.3,273.3,128,3,3
-4,DeMarco Murray\MurrDe00,TEN,RB,28,16,16,1,2,10,1,0,293,1287,4.39,9,67,53,377,7.11,3,243,300.8,267.3,122,4,4
-16,Odell Beckham\BeckOd00,NYG,WR,24,16,16,0,0,0,0,0,1,9,9.00,0,169,101,1367,13.53,10,196,300.6,246.1,69,4,16
-19,T.Y. Hilton\HiltT.00,IND,WR,27,16,16,0,0,0,0,0,0,0,,0,155,91,1448,15.91,6,185,276.8,228.3,59,5,19
-22,Julio Jones\JoneJu02,ATL,WR,27,14,14,0,0,0,0,0,0,0,,0,129,83,1409,16.98,6,179,262.9,218.4,53,6,22
-27,Greg Olsen\OlseGr00,CAR,TE,31,16,16,0,0,0,0,0,0,0,,0,129,80,1073,13.41,3,131,210.3,167.3,42,2,27
+Rk,Name,Tm,FantPos,Age,G,GS,PassCmp,PassAtt,PassYds,PassTD,Int,RushAtt,RushYds,RushY/A,RushTD,RecTgt,Receptions,RecYds,RecY/R,RecTD,FantPt,DKPt,FDPt,VBD,PosRank,OvRank,img,logo
+6,Aaron Rodgers\RodgAa00,GNB,QB,33,16,16,401,610,4428,40,7,67,369,5.51,4,0,0,0,,0,382,397.0,387.0,114,1,6,http://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/8439.png&w=350&h=254,http://prod.static.packers.clubs.nfl.com/nfl-assets/img/gbl-ico-team/GB/logos/home/medium.png
+1,David Johnson\JohnDa08,ARI,RB,25,16,16,0,0,0,0,0,293,1239,4.23,16,120,80,879,10.99,4,328,416.8,367.8,207,1,1,http://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2508176.png&w=350&h=254,http://prod.static.cardinals.clubs.nfl.com/nfl-assets/img/gbl-ico-team/ARI/logos/home/medium.png
+2,Ezekiel Elliott\ElliEz00,DAL,RB,21,15,15,0,0,0,0,0,322,1631,5.07,15,39,32,363,11.34,1,293,332.4,309.4,173,2,2,http://a.espncdn.com/i/headshots/nfl/players/full/3051392.png,http://prod.static.colts.clubs.nfl.com/nfl-assets/img/gbl-ico-team/DAL/logos/home/medium.png
+11,Mike Evans\EvanMi00,TAM,WR,23,16,16,0,0,0,0,0,0,0,,0,173,96,1321,13.76,12,208,307.1,256.1,82,1,11,http://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/16737.png&w=350&h=254,http://prod.static.buccaneers.clubs.nfl.com/nfl-assets/img/gbl-ico-team/TB/logos/home/medium.png
+12,Jordy Nelson\NelsJo00,GNB,WR,31,16,16,0,0,0,0,0,0,0,,0,152,97,1257,12.96,14,208,308.7,256.2,81,2,12,http://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/11270.png&w=350&h=254,http://prod.static.packers.clubs.nfl.com/nfl-assets/img/gbl-ico-team/GB/logos/home/medium.png
+13,Antonio Brown\BrowAn04,PIT,WR,28,15,15,0,0,0,0,0,3,9,3.00,0,154,106,1284,12.11,12,207,310.3,254.3,81,3,13,http://fanduelexperts.com/assets/img/players/antonio-brown.png,http://prod.static.steelers.clubs.nfl.com/nfl-assets/img/gbl-ico-team/PIT/logos/home/medium.png
+23,Travis Kelce\KelcTr00,KAN,TE,27,16,15,0,0,0,0,0,1,-5,-5.00,0,117,85,1125,13.24,4,138,226.0,180.5,49,1,23,http://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/15847.png&w=350&h=254,http://prod.static.colts.clubs.nfl.com/nfl-assets/img/gbl-ico-team/KC/logos/home/medium.png
+10,Matt Ryan\RyanMa00,ATL,QB,31,16,16,373,534,4944,38,7,35,117,3.34,0,0,0,0,,0,355,362.5,354.5,88,2,10,https://speakerdata2.s3.amazonaws.com/photo/image/882662/i.png,http://prod.static.falcons.clubs.nfl.com/nfl-assets/img/gbl-ico-team/ATL/logos/home/medium.png
+3,LeSean McCoy\McCoLe01,BUF,RB,28,15,15,0,0,0,0,0,234,1267,5.41,13,57,50,356,7.12,1,248,304.3,273.3,128,3,3,http://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/12514.png&w=350&h=254,http://prod.static.colts.clubs.nfl.com/nfl-assets/img/gbl-ico-team/BUF/logos/home/medium.png
+4,DeMarco Murray\MurrDe00,TEN,RB,28,16,16,1,2,10,1,0,293,1287,4.39,9,67,53,377,7.11,3,243,300.8,267.3,122,4,4,http://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/14005.png&w=350&h=254,http://prod.static.colts.clubs.nfl.com/nfl-assets/img/gbl-ico-team/TEN/logos/home/medium.png
+16,Odell Beckham\BeckOd00,NYG,WR,24,16,16,0,0,0,0,0,1,9,9.00,0,169,101,1367,13.53,10,196,300.6,246.1,69,4,16,http://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/16733.png&w=350&h=254,http://prod.static.colts.clubs.nfl.com/nfl-assets/img/gbl-ico-team/NYG/logos/home/medium.png
+19,T.Y. Hilton\HiltT.00,IND,WR,27,16,16,0,0,0,0,0,0,0,,0,155,91,1448,15.91,6,185,276.8,228.3,59,5,19,http://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/14924.png&w=350&h=254,http://prod.static.colts.clubs.nfl.com/nfl-assets/img/gbl-ico-team/IND/logos/home/medium.png
+22,Julio Jones\JoneJu02,ATL,WR,27,14,14,0,0,0,0,0,0,0,,0,129,83,1409,16.98,6,179,262.9,218.4,53,6,22,http://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/13982.png&w=350&h=254,http://prod.static.falcons.clubs.nfl.com/nfl-assets/img/gbl-ico-team/ATL/logos/home/medium.png
+27,Greg Olsen\OlseGr00,CAR,TE,31,16,16,0,0,0,0,0,0,0,,0,129,80,1073,13.41,3,131,210.3,167.3,42,2,27,http://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/10475.png&w=350&h=254,http://prod.static.panthers.clubs.nfl.com/nfl-assets/img/gbl-ico-team/CAR/logos/home/medium.png
